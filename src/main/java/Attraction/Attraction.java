@@ -1,8 +1,8 @@
 package Attraction;
 
-public class Attraction {
+public abstract class Attraction {
 
-    private String attractionName;
+    protected String attractionName;
 
     public Attraction(String attractionName){
         this.attractionName = attractionName;
